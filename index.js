@@ -13,7 +13,7 @@ app.use(cors());
 
 const visitors = []
 app.use('/',(req,res) => {
-    res.send('BHF API')
+    res.send('hackathon API')
     console.log(req.body)
 })
 
